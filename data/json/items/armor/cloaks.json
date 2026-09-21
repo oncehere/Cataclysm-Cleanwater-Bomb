@@ -60,6 +60,18 @@
     ]
   },
   {
+    "id": "pride_flag",
+    "copy-from": "american_flag",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
+    "name": { "str": "cloth flag" },
+    "description": "A large cloth flag, made to fly in even the worst conditions.",
+    "//": "Keep the old item ID for saves without pride_items.  The mod supplies its themed name and variants.  Do not add this compatibility item to core spawn groups.",
+    "symbol": "]",
+    "looks_like": "sheet",
+    "color": "white"
+  },
+  {
     "id": "artifact_energy_shield",
     "type": "ITEM",
     "subtypes": [ "ARMOR" ],
